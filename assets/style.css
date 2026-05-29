@@ -176,6 +176,13 @@ img {
 
 @media (min-width: 768px) and (max-width: 1366px) {
 
+  .dtp-body {
+
+    min-height: 100vh;
+    overflow: auto;
+
+  }
+
   .footer {
     padding-bottom: 20px;
   }

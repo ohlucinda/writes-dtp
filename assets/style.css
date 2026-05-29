@@ -161,3 +161,11 @@ img {
   display: block;
   margin: 60px 0;
 }
+
+.footer {
+
+  flex-shrink: 0;
+
+  padding-top: 40px;
+
+}

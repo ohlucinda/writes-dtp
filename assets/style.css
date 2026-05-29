@@ -172,110 +172,12 @@ img {
 
 }
 
-/* iPad 縦 */
+/* iPad */
 
-@media (min-width: 768px)
-and (max-width: 1024px)
-and (orientation: portrait) {
-
-  .dtp-body {
-
-    height: 100vh;
-    overflow: auto;
-
-  }
+@media (min-width: 768px) and (max-width: 1366px) {
 
   .footer {
     padding-bottom: 20px;
   }
 
-  .page-wrap {
-
-  padding-bottom: 80px;
-
 }
-}
-
-
-
-/* iPad 縦 */
-
-@media (min-width: 768px)
-and (max-width: 1024px)
-and (orientation: portrait) {
-
-  .dtp-body {
-
-    height: 100vh;
-    overflow: auto;
-
-  }
-
-  .footer {
-
-    padding-bottom: 20px;
-
-    transform: translateY(-40px);
-
-  }
-
-}
-
-
-
-/* iPad 横 */
-
-@media (min-width: 768px)
-and (max-width: 1366px)
-and (orientation: landscape) {
-
-  .dtp-body {
-
-    height: 100vh;
-    overflow: auto;
-
-  }
-
-  .footer {
-
-    padding-bottom: 20px;
-
-    transform: translateY(-80px);
-
-  }
-
-}
-@media (max-width: 767px) {
-
-  body {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 100vh;
-
-    padding: 40px;
-
-    text-align: center;
-  }
-
-  main,
-  .footer,
-  .post-nav {
-
-    display: none;
-
-  }
-
-  body::before {
-
-    content: "This site is for Mac & iPad.";
-
-    font-size: 16px;
-    line-height: 1.8;
-
-  }
-
-}
-/* desktop & ipad */

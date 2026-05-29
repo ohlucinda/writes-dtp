@@ -24,8 +24,6 @@ body {
 
 main {
 
-  flex: 1;
-
   max-width: 680px;
 
   margin: 0 auto;

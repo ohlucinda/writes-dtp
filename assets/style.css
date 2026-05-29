@@ -172,13 +172,36 @@ img {
 
 }
 
-/* iPad */
+/* iPad 縦 */
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait) {
 
   .dtp-body {
 
-    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
+
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+}
+
+
+
+/* iPad 横 */
+
+@media (min-width: 768px)
+and (max-width: 1366px)
+and (orientation: landscape) {
+
+  .dtp-body {
+
+    height: 100vh;
     overflow: auto;
 
   }

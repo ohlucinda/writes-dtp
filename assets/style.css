@@ -200,10 +200,10 @@ img {
 
   main {
 
-  padding-bottom: 120px;
+    flex: unset;
 
-}
-  
+  }
+
   .footer {
 
     padding-bottom: 20px;

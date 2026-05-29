@@ -189,6 +189,11 @@ and (orientation: portrait) {
     padding-bottom: 20px;
   }
 
+  .page-wrap {
+
+  padding-bottom: 80px;
+
+}
 }
 
 
@@ -209,5 +214,11 @@ and (orientation: landscape) {
   .footer {
     padding-bottom: 20px;
   }
+
+  .page-wrap {
+
+  padding-bottom: 80px;
+
+}
 
 }

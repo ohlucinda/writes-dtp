@@ -223,6 +223,10 @@ details div {
 
   font-size: 19px;
 
+  font-family: "jimbo-std-expanded", sans-serif;
+
+  letter-spacing: 0.02em;
+
 }
 
 .post-nav a {

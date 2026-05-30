@@ -395,7 +395,7 @@ and (orientation: landscape) {
 
 .bookmarks-page {
 
-  min-height: calc(100vh - 620px);
+  min-height: calc(100vh - 550px);
 
   display: flex;
 

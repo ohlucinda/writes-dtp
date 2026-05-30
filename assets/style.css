@@ -412,3 +412,9 @@ and (orientation: landscape) {
   flex-direction: column;
 
 }
+
+.bookmark-links {
+
+  text-align: right;
+
+}

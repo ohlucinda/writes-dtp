@@ -294,7 +294,7 @@ and (orientation: portrait) {
 
   .footer {
 
-    margin-top: 320px;
+    margin-top: 300px;
 
   }
 
@@ -316,7 +316,7 @@ and (orientation: landscape) {
 
 /* Mac */
 
-@media (min-width: 1024px) {
+@media (min-width: 1367px) {
 
   .footer {
 

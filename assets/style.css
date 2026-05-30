@@ -412,8 +412,8 @@ and (orientation: landscape) {
   font-family: "jimbo-std-expanded", sans-serif;
 
 }
-.bookmark-links {
+.bookmark-links div {
 
-  font-size: 18px !important;
+  font-size: 18px;
 
 }

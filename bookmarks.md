@@ -4,6 +4,8 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
+ <details class="bookmark-group">
+
   <summary>
 
     Apple Music
@@ -13,15 +15,21 @@ permalink: /bookmarks/
   <div class="bookmark-links">
 
     <div>
+
       <a href="https://music.apple.com/jp/artist/jem/1864719862?l=en-US">Je'm</a>
+
     </div>
 
     <div>
+
       <a href="https://music.apple.com/jp/artist/ohlucinda/1840163010?l=en-US">OHLUCINDA</a>
+
     </div>
 
     <div>
+
       <a href="https://music.apple.com/jp/artist/aquawits/1873995916?l=en-US">AQUAWITS</a>
+
     </div>
 
   </div>

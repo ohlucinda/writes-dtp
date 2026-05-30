@@ -407,3 +407,8 @@ and (orientation: landscape) {
   padding-left: 100px;
 
 }
+.bookmarks-column {
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
+}

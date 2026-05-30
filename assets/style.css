@@ -57,6 +57,30 @@ details {
 
 }
 
+.months-back {
+
+  position: fixed;
+
+  top: 40px;
+
+  right: 40px;
+
+}
+
+.months-back a {
+
+  color: #111;
+
+  text-decoration: none;
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
+  font-size: 18px;
+
+  letter-spacing: 0.02em;
+
+}
+
 .top-nav {
 
   display: flex;

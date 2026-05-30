@@ -1,1 +1,4 @@
-month
+---
+layout: default
+title: Months
+---

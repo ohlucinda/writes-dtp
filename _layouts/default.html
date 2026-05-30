@@ -16,7 +16,7 @@
   {{ content }}
 </main>
 
-{% if page.url != "/" %}
+{% if page.url != "/" and page.url != "/months/" %}
 
 <div class="post-nav">
 
@@ -36,9 +36,13 @@
     </a>
   {% endif %}
 
+</div>
+
+{% endif %}
+
+{% unless page.url == '/months/' %}
+
 <div class="footer {% if page.url != '/' %}post-footer{% endif %}">
-  
-{% endunless %}
 
   <div class="touch">
     <a href="mailto:jemmusicja@duck.com">GET IN TOUCH</a>
@@ -62,6 +66,8 @@
   </div>
 
 </div>
+
+{% endunless %}
 
 </body>
 </html>

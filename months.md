@@ -4,6 +4,16 @@ title: Months
 permalink: /months/
 ---
 
+<div class="months-back">
+
+  <a href="{{ '/' | relative_url }}">
+
+    &lt; back
+
+  </a>
+
+</div>
+
 <header class="site-header">
 
   Months

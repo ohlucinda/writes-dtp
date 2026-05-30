@@ -392,3 +392,9 @@ and (orientation: landscape) {
   }
 
 }
+
+.bookmarks-page {
+
+  min-height: 55vh;
+
+}

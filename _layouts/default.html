@@ -40,7 +40,15 @@
 
 {% endif %}
 
+{% unless page.url == '/months/' %}
+
 <div class="footer {% if page.url != '/' %}post-footer{% endif %}">
+
+  ...
+
+</div>
+
+{% endunless %}
 
   <div class="touch">
     <a href="mailto:jemmusicja@duck.com">GET IN TOUCH</a>

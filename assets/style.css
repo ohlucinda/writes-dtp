@@ -56,6 +56,18 @@ details {
 
 }
 
+.bookmarks-page {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  gap: 60px;
+
+}
+
 .site-header {
 
   font-family: "jimbo-std-expanded", sans-serif;

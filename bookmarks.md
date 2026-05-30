@@ -4,6 +4,8 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
+<div class="bookmarks-page">
+
 <details class="bookmark-group">
 
   <summary>
@@ -85,3 +87,5 @@ permalink: /bookmarks/
   </div>
 
 </details>
+
+</div>

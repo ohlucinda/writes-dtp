@@ -415,6 +415,6 @@ and (orientation: landscape) {
 
 .bookmark-links {
 
-  text-align: right;
+  padding-left: 210px;
 
 }

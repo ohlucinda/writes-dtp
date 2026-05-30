@@ -155,7 +155,7 @@ and (orientation: landscape) {
 
     font-family: "jimbo-std-expanded", sans-serif;
 
-    font-size: 18px;
+    font-size: 20px;
 
     letter-spacing: 0.02em;
 
@@ -329,7 +329,7 @@ and (orientation: landscape) {
 
   .footer {
 
-    margin-top: 320px;
+    margin-top: 300px;
 
   }
 

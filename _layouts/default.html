@@ -26,7 +26,19 @@ if (window.innerWidth <= 768) {
 <body>
 
 <main>
+
+{% if page.url != "/" and page.url != "/months/" %}
+
+<header class="site-header">
+
+  {{ page.title }}
+
+</header>
+
+{% endif %}
+
   {{ content }}
+
 </main>
 
 {% if page.url != "/" and page.url != "/months/" %}

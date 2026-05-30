@@ -57,6 +57,34 @@ details {
 
 }
 
+.top-nav {
+
+  margin-top: 180px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 42px;
+
+}
+
+.top-nav a {
+
+  color: #111;
+
+  text-decoration: none;
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
+  font-size: 42px;
+
+  letter-spacing: 0.02em;
+
+}
+
 summary {
 
   list-style: none;

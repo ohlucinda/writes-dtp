@@ -49,22 +49,17 @@ details {
 
 }
 
-.bookmark-group {
-
-  margin-bottom: 100px !important;
-
-}
-
-
-}
-
 .bookmarks-page {
-
-  width: 100vw;
 
   display: flex;
 
-  align-items: flex-start;
+  gap: 24px;
+
+}
+
+.bookmark-group {
+
+  flex: 1;
 
 }
 

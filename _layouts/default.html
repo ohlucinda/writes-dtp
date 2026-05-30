@@ -8,6 +8,19 @@
   <title>{{ page.title }}</title>
 
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <script>
+
+if (window.innerWidth <= 768) {
+
+  document.write('');
+
+  throw new Error("Phone blocked");
+
+}
+
+</script>
+  
 </head>
 
 <body>

@@ -403,8 +403,8 @@ and (orientation: landscape) {
 
 }
 
-.bookmark-links {
+.bookmarks-page {
 
-  padding-left: 210px;
+  width: 100%;
 
 }

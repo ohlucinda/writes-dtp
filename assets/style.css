@@ -107,7 +107,7 @@ and (orientation: landscape) {
 
   .top-nav {
 
-    margin-top: 140px;
+    margin-top: 60px;
 
     gap: 32px;
 
@@ -131,7 +131,7 @@ and (orientation: landscape) {
 
 /* Mac */
 
-@media (min-width: 1024px) {
+@media (min-width: 1367px) {
 
   .top-nav {
 

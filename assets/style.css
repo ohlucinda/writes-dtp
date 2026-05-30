@@ -65,6 +65,22 @@ details {
 
 }
 
+.post-title {
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
+  font-size: 28px;
+
+  text-align: center;
+
+  margin-bottom: 100px;
+
+  letter-spacing: 0.02em;
+
+  transform: translateY(-20px);
+
+}
+
 .months-back {
 
   position: fixed;

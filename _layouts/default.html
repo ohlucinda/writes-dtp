@@ -9,15 +9,13 @@
 
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
-  <script>
+ <script>
 
 const isPhone = /iPhone|Android.+Mobile/.test(navigator.userAgent);
 
 if (isPhone) {
 
-  document.documentElement.innerHTML = "";
-
-  throw new Error("Phone blocked");
+  window.location.href = "about:blank";
 
 }
 

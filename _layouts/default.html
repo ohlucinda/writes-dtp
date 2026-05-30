@@ -11,9 +11,11 @@
 
   <script>
 
-if (window.innerWidth <= 820) {
+const isPhone = /iPhone|Android.+Mobile/.test(navigator.userAgent);
 
-  document.write('');
+if (isPhone) {
+
+  document.documentElement.innerHTML = "";
 
   throw new Error("Phone blocked");
 

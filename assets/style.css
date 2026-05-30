@@ -401,10 +401,6 @@ and (orientation: landscape) {
 
   flex-direction: column;
 
-}
-
-.bookmarks-page {
-
-  width: 100%;
+    padding-left: 80px;
 
 }

@@ -401,3 +401,9 @@ and (orientation: landscape) {
   margin: 0 !important;
 
 }
+
+.bookmarks-column {
+
+  padding-left: 60px;
+
+}

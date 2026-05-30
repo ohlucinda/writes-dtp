@@ -4,6 +4,8 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
+<div class="bookmarks-column">
+
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
 
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
@@ -99,3 +101,5 @@ permalink: /bookmarks/
   </div>
 
 </details>
+
+</div>
